@@ -6,7 +6,7 @@ if (isset($_POST['submit'])){
     $mailFrom = $_POST['Mail'];
     $message = $_POST['Message'];
 
-    $mailTo = "wjplatformer@gmail.com";
+    $mailTo = "nifak40057@teasya.com";
     $headers = "From: ".$mailFrom;
     $txt = "You are spammed by ".$name.".\n\n".$message;
 
