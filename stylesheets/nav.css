@@ -1,0 +1,46 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(55, 121, 110);
+  font-family: "monaco", monospace;
+  width: 99%;
+  border-radius: 10px;
+  position: fixed;
+  top: 8px;
+  opacity: 89%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(169, 185, 172);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "monaco", monospace;
+}
+
+    /* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #3b643b;
+}
+
+#repo_link{
+  float: right;
+}
+@media screen and (max-width:600px){
+  ul{
+    overflow: visible;
+    width: 222px;
+  }
+  #repo_link{
+    float: left;
+    padding-left: 60px;
+  }
+}
