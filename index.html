@@ -4,18 +4,31 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Saira+Condensed:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="stylesheets/index.css">
-  <link rel="stylesheet" href="stylesheets/nav.css"
+  <link rel="stylesheet" href="stylesheets/nav.css">
 </head>
 
 <body>
   <nav>
     <ul>
-      <li><a href="index.html">Wjplatformer</a></li>
+      <li><a href="index.html">Me</a></li>
+      <li><a href="index.html">Ventures</a></li>
+      <li><a href="index.html">Collabs</a></li>
+      <li><a href="index.html">About</a></li>
+      <li id="right"><a href="index.html">Contacts</a></li>
   </nav>
 
-  <h1 style="padding-top: 100px; text-align: center;">Frick</h1>
-  <h4 style="text-align: center;">I have not finished this, please wait a moment 💀</h5>
+  <h1 id="text-change" onclick="text_change()" style="padding-top: 180px; text-align: center;">404 Error</h1>
+  <h4 id="text-change2" style="text-align: center;">Reason: You didn't click "404 Error"</h4> 
+
+  <script>
+    function text_change(){
+    document.getElementById("text-change").innerHTML = "Fr*ck. Fine.";
+    document.getElementById("text-change2").innerHTML = "Updating in progress <i class='fa fa-gear fa-spin' style='font-size: 18px;''></i>"
+    }
+
+  </script>
 </body>
 
 </html>

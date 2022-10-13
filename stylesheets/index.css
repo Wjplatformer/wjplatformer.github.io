@@ -1,6 +1,6 @@
 body{
-  background-color: rgb(0, 0, 0);
-  color: rgb(28, 184, 163);
+  background-color: #222;
+  color: rgb(72, 255, 231);
   font-family: 'Cairo', sans-serif;
 }
 
@@ -8,24 +8,7 @@ h1{
     font-size: 100px;
 }
 
-#typewriterCursor{
-  border-right: 1em solid rgb(71,253, 183);
-  margin: 0 auto;
+a{
+  text-decoration: none;
+  color: rgb(72, 255, 231);
 }
-/*
-.typewriter{
-  overflow: hidden;  /* Ensures the content is not revealed until the animation 
-  border-right: .15em solid rgb(71, 253, 183); /* The typwriter cursor 
-  white-space: nowrap; /* Keeps the content on a single line 
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens 
-  letter-spacing: 0; /* Adjust as needed 
-  animation: 
-    blink-caret .75s infinite;
-}
-
-/* The typewriter cursor effect 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  30% { border-color: rgb(71, 253, 183); }
-}
-*/

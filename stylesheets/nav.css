@@ -4,7 +4,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(55, 121, 110);
+  background-color: rgb(95, 212, 193);
   font-family: "monaco", monospace;
   width: 99%;
   border-radius: 10px;
@@ -19,7 +19,7 @@ li {
 
 li a {
   display: block;
-  color: rgb(169, 185, 172);
+  color: rgb(25, 54, 45);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -28,19 +28,25 @@ li a {
 
     /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #3b643b;
+  background-color:  rgb(72, 255, 231);
 }
 
-#repo_link{
+#right{
   float: right;
 }
-@media screen and (max-width:600px){
+
+@media screen and (max-width: 1000px){
   ul{
     overflow: visible;
-    width: 222px;
+    width: 170px;
+    font-size: 30px;
   }
-  #repo_link{
+  
+  li{
+    width: 170px;
+  }
+
+  #right{
     float: left;
-    padding-left: 60px;
   }
 }
