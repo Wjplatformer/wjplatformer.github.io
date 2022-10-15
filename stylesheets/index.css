@@ -2,13 +2,22 @@ body{
   background-color: #222;
   color: rgb(72, 255, 231);
   font-family: 'Cairo', sans-serif;
+  text-align: center;
 }
 
 h1{
-    font-size: 100px;
+  font-size: 9vw;
+}
+
+h5{
+  font-size: 14px;
 }
 
 a{
   text-decoration: none;
   color: rgb(72, 255, 231);
+}
+
+@media screen and (max-width: 1000px) {
+    h1{font-size: 14vh;}
 }

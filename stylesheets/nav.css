@@ -38,12 +38,12 @@ li a:hover {
 @media screen and (max-width: 1000px){
   ul{
     overflow: visible;
-    width: 170px;
-    font-size: 30px;
+    width: 90px;
+    font-size: 15px;
   }
   
   li{
-    width: 170px;
+    width: 90px;
   }
 
   #right{

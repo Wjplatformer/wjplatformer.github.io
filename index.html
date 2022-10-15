@@ -12,20 +12,35 @@
 <body>
   <nav>
     <ul>
-      <li><a href="index.html">Me</a></li>
-      <li><a href="index.html">Ventures</a></li>
-      <li><a href="index.html">Collabs</a></li>
-      <li><a href="index.html">About</a></li>
-      <li id="right"><a href="index.html">Contacts</a></li>
+      <li><a href="#text-change">Me</a></li>
+      <li><a href="#builds">Ventures</a></li>
+      <li><a href="#Collab">Collabs</a></li>
+      <li><a href="#About">About</a></li>
+      <li id="right"><a href="#Contact">Contacts</a></li>
   </nav>
 
-  <h1 id="text-change" onclick="text_change()" style="padding-top: 180px; text-align: center;">404 Error</h1>
-  <h4 id="text-change2" style="text-align: center;">Reason: You didn't click "404 Error"</h4> 
+  <h1 id="text-change" onclick="text_change()" style="padding-top: 160px; text-align: center;">404 Error</h1>
+  <h4 id="text-change2" style="text-align: center; padding-bottom: 200px;">Reason: You didn't click "404 Error"</h4> 
+
+  <h1 id="builds">Builds</h1>
+  <h5 style="padding-bottom: 200px;">Past, Current & Future</h5>
+
+  <h1 id="Collab">Collabs</h1>
+  <h5 style="padding-bottom: 200px;">Projects which I univitedly barge into</h5>
+
+  <h1 id="About">About</h1>
+  <h5 style="padding-bottom: 200px;">No face reveal still 😛</h5>
+
+  <h1 id="Contact">Contacts</h1>
+  <h5 style="padding-bottom: 200px;">Message this idiota lol.</h5>
 
   <script>
     function text_change(){
-    document.getElementById("text-change").innerHTML = "Fr*ck. Fine.";
+    if (document.getElementById("text-change").innerHTML === "Welcome IG ¯\\_(ツ)_/¯"){}
+    else {
+    document.getElementById("text-change").innerHTML = "😡. Fine.";
     document.getElementById("text-change2").innerHTML = "Updating in progress <i class='fa fa-gear fa-spin' style='font-size: 18px;''></i>"
+    setTimeout(function() {document.getElementById("text-change").innerHTML = "Welcome IG ¯\\_(ツ)_/¯" }, 3000);};
     }
 
   </script>
