@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="stylesheets/index.css">
   <link rel="stylesheet" href="stylesheets/nav.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -20,7 +21,11 @@
   </nav>
 
   <h1 id="text-change" onclick="text_change()" style="padding-top: 160px; text-align: center;">404 Error</h1>
-  <h4 id="text-change2" style="text-align: center; padding-bottom: 200px;">Reason: You didn't click "404 Error"</h4> 
+  <h4 id="text-change2" style="text-align: center;">Reason: You didn't click "404 Error"</h4> 
+
+  <form action="?" method="POST">
+    <div class="g-recaptcha" data-sitekey="6LdyhaAiAAAAACm_NupXI-Tvzpsisf8lJkv1zBML" style="margin: auto; width: 15%; padding-bottom: 200px;"></div>
+  </form>
 
   <h1 id="builds">Builds</h1>
   <h5 style="padding-bottom: 200px;">Past, Current & Future</h5>
@@ -28,11 +33,22 @@
   <h1 id="Collab">Collabs</h1>
   <h5 style="padding-bottom: 200px;">Projects which I univitedly barge into</h5>
 
-  <h1 id="About">About</h1>
-  <h5 style="padding-bottom: 200px;">No face reveal still 😛</h5>
+  <h1 id="About" style="margin: 0; padding: 0;">About</h1>
+  <h5 style="margin: 0; padding-bottom: 50px;">No face reveal still 😛</h5>
+  <p style="padding-bottom: 200px;">I am an underaged guy that does things a little earlier than most people. I'm a musician that plays only the piano, I compose my own songs on the fly, so most likely you will see me livestream my music than release anything.
+    I like to make stuff with the Citrus community and OneSpark, and contributed to other stuff in contributions. <br>
+    - Yo-Yo player<Br>
+    - Cardist and Magician<br>
+    - Musician <br>
+    - SpeedCuber<br>
+    - Plastic Models<br>
+    - Reading<br>
 
-  <h1 id="Contact">Contacts</h1>
-  <h5 style="padding-bottom: 200px;">Message this idiota lol.</h5>
+  </p>
+
+  <h1 id="Contact" style="margin: 0; padding: 0;"">Contacts</h1>
+  <h5 >Message this idiota lol.</h5>
+  <iframe src="https://wjplatformer.bio.link" title="bio link" width="500px" height="800px"></iframe>
 
   <script>
     function text_change(){
@@ -42,7 +58,6 @@
     document.getElementById("text-change2").innerHTML = "Updating in progress <i class='fa fa-gear fa-spin' style='font-size: 18px;''></i>"
     setTimeout(function() {document.getElementById("text-change").innerHTML = "Welcome IG ¯\\_(ツ)_/¯" }, 3000);};
     }
-
   </script>
 </body>
 
