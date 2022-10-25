@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="stylesheets/index.css">
   <link rel="stylesheet" href="stylesheets/nav.css">
+  <script src="https://kit.fontawesome.com/d8b77a03b1.js" crossorigin="anonymous"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
@@ -20,34 +21,30 @@
       <li id="right"><a href="#Contact">Contacts</a></li>
   </nav>
 
-  <h1 id="text-change" onclick="text_change()" style="padding-top: 160px; text-align: center;">404 Error</h1>
-  <h4 id="text-change2" style="text-align: center;">Reason: You didn't click "404 Error"</h4> 
+  <h1 id="text-change" onclick="text_change()" style="padding-top: 5%; margin-bottom: 0;">404 Error</h1>
+  <h3 id="text-change2">Reason: You didn't click "404 Error"</h4> 
 
   <form action="?" method="POST">
-    <div class="g-recaptcha" data-sitekey="6LdyhaAiAAAAACm_NupXI-Tvzpsisf8lJkv1zBML" data-theme="dark" style="display: flex; justify-content: center; padding-bottom: 200px;"></div>
+    <a class="g-recaptcha" data-sitekey="6LdyhaAiAAAAACm_NupXI-Tvzpsisf8lJkv1zBML" data-theme="dark" style="display: flex; justify-content: center; padding-bottom: 12%;"></a>
   </form>
 
-  <h1 id="builds">Builds</h1>
-  <h5 style="padding-bottom: 200px;">Past, Current & Future</h5>
+  <h1 id="builds"">Builds</h1>
+  <h3 style="padding-bottom: 5%;">Past, Current & Future</h5>
+  <a href="builds.html" class="arrow_blink"><i class="fa-solid fa-arrow-right" style="padding-bottom: 2%; font-size: 50px; animation: blinker 1s linear infinite;"></i></a>
+
 
   <h1 id="Collab">Collabs</h1>
-  <h5 style="padding-bottom: 200px;">Projects which I univitedly barge into</h5>
+  <h3 style="padding-bottom: 5%;">Projects which I univitedly barge into</h5>
+  <a href="collabs.html" class="arrow_blink"><i class="fa-solid fa-arrow-right" style="padding-bottom: 5%; font-size: 50px; animation: blinker 1s linear infinite;"></i></a>
+
 
   <h1 id="About" style="margin: 0; padding: 0;">About</h1>
-  <h5 style="margin: 0; padding-bottom: 50px;">No face reveal still 😛</h5>
-  <p style="padding-bottom: 200px;">I am an underaged guy that does things a little earlier than most people. I'm a musician that plays only the piano, I compose my own songs on the fly, so most likely you will see me livestream my music than release anything.
-    I like to make stuff with the Citrus community and OneSpark, and contributed to other stuff in contributions. <br>
-    - Yo-Yo player<Br>
-    - Cardist and Magician<br>
-    - Musician <br>
-    - SpeedCuber<br>
-    - Plastic Models<br>
-    - Reading<br>
-
-  </p>
+  <h3 style="margin: 0; padding-bottom: 5%;">No face reveal still 😛</h5>
+  <a href="about.html" class="arrow_blink"><i class="fa-solid fa-arrow-right" style="padding-bottom: 5%; font-size: 50px; animation: blinker 1s linear infinite;"></i></a>
 
   <h1 id="Contact" style="margin: 0; padding: 0;"">Contacts</h1>
-  <h5 >Message this idiota lol.</h5>
+  <h3 >Message this idiota lol.</h5>
+
   <iframe src="https://wjplatformer.bio.link" title="bio link" width="500px" height="800px"></iframe>
 
   <script>
@@ -55,7 +52,7 @@
     if (document.getElementById("text-change").innerHTML === "Welcome IG ¯\\_(ツ)_/¯"){}
     else {
     document.getElementById("text-change").innerHTML = "😡. Fine.";
-    document.getElementById("text-change2").innerHTML = "Updating in progress <i class='fa fa-gear fa-spin' style='font-size: 18px;''></i>"
+    document.getElementById("text-change2").innerHTML = "Updating in progress <i class='fa fa-gear fa-spin' style='font-size: 18px;'></i>"
     setTimeout(function() {document.getElementById("text-change").innerHTML = "Welcome IG ¯\\_(ツ)_/¯" }, 3000);};
     }
   </script>

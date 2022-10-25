@@ -2,6 +2,19 @@ html{
   scroll-behavior: smooth;
 }
 
+.arrow_blink{
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+a{
+  text-decoration: none;
+  color: rgb(72, 255, 231);
+}
+
 body{
   background-color: #222;
   color: rgb(72, 255, 231);
@@ -11,10 +24,12 @@ body{
 
 h1{
   font-size: 9vw;
+  margin-bottom: 0;
 }
 
-h5{
-  font-size: 14px;
+h3{
+  font-size: medium;
+  font-weight: 600;
 }
 
 a{
