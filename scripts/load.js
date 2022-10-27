@@ -1,6 +1,5 @@
 function show_page(){
     page = document.getElementById('spin');
-    spinner = document.getElementById('uwu');
     page.style.visibility = "hidden";
 };
 
