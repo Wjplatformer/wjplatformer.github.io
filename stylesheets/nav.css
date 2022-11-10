@@ -1,17 +1,22 @@
+:root{
+  --main-bg-color: #222;
+}
 
 ul {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: none;
+  background-color: var(--main-bg-color);
   font-family: 'Cairo', sans-serif;
   width: 99%;
   border-radius: 10px;
   position: sticky;
-  top: 8px;
+  top: 0;
   opacity: 100%;
   justify-content: center;
+  z-index: 100;
 }
 
 li {
@@ -27,27 +32,10 @@ li a {
   font-family: 'Cairo', sans-serif;
 }
 
-    /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color:  rgb(37, 97, 89);
 }
 
 #right{
   float: right;
-}
-
-@media screen and (max-width: 1000px){
-  ul{
-    display: flex;
-    overflow: visible;
-    font-size: 6.5vw;
-  }
-  
-  li{
-    display: flex;
-  }
-
-  #right{
-    float: right;
-  }
 }
