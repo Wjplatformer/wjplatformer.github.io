@@ -12,7 +12,7 @@ ul {
   font-family: 'Cairo', sans-serif;
   width: 99%;
   border-radius: 10px;
-  position: sticky;
+  position: fixed;
   top: 0;
   opacity: 100%;
   justify-content: center;
