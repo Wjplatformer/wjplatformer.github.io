@@ -18,14 +18,18 @@
     <h2 id="uwu" class="fa-solid fa-hurricane fa-spin" style="font-size: 50px;"></h2>
   </div>
 
-  <h1 id="text-change" onclick="text_change()" style="padding-top: 5%; margin-bottom: 0;">404 Error</h1>
-  <h3 id="text-change2">Reason: You didn't click "404 Error"</h4> 
+  <button id="text-change" onclick=text_change() disabled=true>404 Error</button>
+  <h3 id="text-change2">Reason: You didn't finish the captcha and click "404 Error"</h4> 
 
   <form action="?" method="POST">
-    <a class="g-recaptcha" data-sitekey="6LdyhaAiAAAAACm_NupXI-Tvzpsisf8lJkv1zBML" data-theme="dark" style="display: flex; justify-content: center; padding-bottom: 12%;"></a>
+    <a class="g-recaptcha" data-sitekey="6LdyhaAiAAAAACm_NupXI-Tvzpsisf8lJkv1zBML" data-callback="enableClick" data-theme="dark" style="display: flex; justify-content: center; padding-bottom: 12%;"></a>
   </form>
 
   <script>
+    function enableClick(){
+      document.getElementById('text-change').disabled=false;
+    }
+
     function text_change(){
     if (document.getElementById("text-change").innerHTML === "Welcome IG ¯\\_(ツ)_/¯"){}
     else {

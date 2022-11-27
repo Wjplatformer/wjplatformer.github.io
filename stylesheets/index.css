@@ -1,5 +1,6 @@
 :root{
   --main-bg-color: #222;
+  --text-color: rgb(72, 255, 231);
 }
 
 html{
@@ -16,17 +17,18 @@ html{
 
 a{
   text-decoration: none;
-  color: rgb(72, 255, 231);
+  color: var(--text-color);
 }
 
 body{
   background-color: var(--main-bg-color);
-  color: rgb(72, 255, 231);
+  color: var(--text-color);
   font-family: 'Cairo', sans-serif;
   text-align: center;
 }
 
 h1{
+  font-weight: 700;
   font-size: 9vw;
   margin: 0;
 }
@@ -38,7 +40,7 @@ h3{
 
 a{
   text-decoration: none;
-  color: rgb(72, 255, 231);
+  color: var(--text-color);
 }
 
 #spin{
@@ -50,6 +52,17 @@ a{
   position: fixed;
   width: 100%;
   height: 100%;
+}
+
+#text-change{
+  border: none;
+  color: rgb(72, 255, 231); 
+  font-size: 9vw;
+  margin: 0;
+  background-color: transparent; 
+  order: none; 
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
 }
 
 .boxes{
