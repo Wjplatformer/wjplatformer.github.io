@@ -78,6 +78,7 @@ a{
   margin: 10px;
 }
 
+/*
 .box2{
   color: var(--main-bg-color);
   position: relative;
@@ -105,6 +106,7 @@ a{
   padding-top: 35%;
   transform: rotate(315deg) translateY(-25px);
 }
+*/
 
 
 @media screen and (max-width: 1000px) {
